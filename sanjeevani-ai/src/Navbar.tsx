@@ -18,21 +18,3 @@ export default function Navbar() {
 
 
 
-
-// In App.tsx, import Navbar and wrap Routes
-import Navbar from "./components/Navbar";
-
-function App() {
-    return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/chat" element={<Chat />} />
-                <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/podcasts" element={<Podcasts />} />
-                <Route path="/blogs" element={<Blogs />} />
-            </Routes>
-        </Router>
-    );
-}

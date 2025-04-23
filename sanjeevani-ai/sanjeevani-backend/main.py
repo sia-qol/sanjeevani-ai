@@ -7,7 +7,7 @@ from langchain.llms import HuggingFaceHub
 import os
 
 # === CONFIGURATION ===
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+# os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 # === FASTAPI APP ===
 app = FastAPI()
