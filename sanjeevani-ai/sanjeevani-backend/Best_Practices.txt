@@ -1,0 +1,21 @@
+Run full-stack apps:
+They use two terminal tabs or windows:
+
+Frontend tab
+    cd sanjeevani-ai
+    npm run dev
+    Backend tab
+
+Backend tab
+    cd sanjeevani-backend
+    uvicorn main:app --reload
+   
+Now, Each runs on a different port:
+
+
+Layer	Port	Purpose
+Frontend	localhost:5173	UI for user interaction (React)
+Backend	localhost:8000	API that responds using LLM
+They operate independently but talk to each other over HTTP.
+
+
