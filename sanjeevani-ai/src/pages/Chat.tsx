@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import { useState } from "react";
 
 export default function Chat() {
   const [messages, setMessages] = useState([

@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const symptoms = [
     { name: "Bloating", level: 3 },
